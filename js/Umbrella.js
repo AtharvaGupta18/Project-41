@@ -19,7 +19,7 @@ class Umbrella {
 		var pos = this.body.position;
 
 		ellipseMode(RADIUS);
-		fill("white");
+		fill("black");
 		ellipse(this.x + 5  , this.y + 70, this.r + 20, this.r + 30);
 		imageMode(CENTER);
 		image(this.image, pos.x, pos.y + 70, 300, 200);
